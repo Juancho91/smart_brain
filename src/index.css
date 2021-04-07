@@ -1,5 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system;
+  font-family: "Courier New", Courier, nonospace;
   background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
