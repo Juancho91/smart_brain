@@ -1,7 +1,8 @@
 body {
   margin: 0;
   font-family: "Courier New", Courier, nonospace;
-  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+  background: #192041;
+  /*background: linear-gradient(89deg, #5eff5e 0%, #283468 100%);*/
 }
 
 button {
