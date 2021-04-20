@@ -34,7 +34,9 @@ class App extends Component {
     };
   }
 
-  calculateFaceLocation = (data) => {};
+  calculateFaceLocation = (data) => {
+    reponse.outputs[0].data.regions[0].region_info.bounding_box;
+  };
 
   onInputChange = (event) => {
     this.setState({ input: event.target.value });
